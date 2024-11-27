@@ -1,4 +1,3 @@
-# subscriber.py
 import argparse
 import asyncio
 from test_benchmark_analysis.peer_node_interface import PeerNodeInterface
@@ -8,37 +7,44 @@ class Subscriber:
         self.interface = interface
         self.topic = topic
 
-    async def subscribe(self):
-        response = await self.interface.subscribe(self.topic)
-        print(f"Subscribe Response: {response}")
+    async def subscribe_and_listen(self):
+        # Subscribe to the topic
+        subscribe_response = await self.interface.subscribe(self.topic)
+        print(f"Subscribe Response: {subscribe_response}")
 
-    async def pull_messages(self):
-        response = await self.interface.pull(self.topic)
-        print(f"Pull Response: {response}")  # Log the raw response for debugging
-        if response.get("status") == "success":
-            messages = response.get("messages", [])
-            if messages:
-                print(f"Received messages: {messages}")
-            else:
-                print("No new messages")
-        else:
-            print(f"Status for pulling messages is : {response.get('message')}")
+        if subscribe_response.get("status") != "success":
+            print("Failed to subscribe to the topic. Exiting.")
+            return
+
+        print(f"Listening for messages on topic: {self.topic}")
+        try:
+            while True:
+                # Pull messages periodically
+                messages = await self.interface.pull(self.topic)
+                if messages.get("status") == "success" and "messages" in messages:
+                    for message in messages["messages"]:
+                        print(f"New Message on '{self.topic}': {message}")
+                await asyncio.sleep(4)  # Adjust polling interval as needed
+        except asyncio.CancelledError:
+            print("Subscription listener stopped.")
 
 async def main():
     parser = argparse.ArgumentParser(description="Subscriber Client")
     parser.add_argument('--host', type=str, default='localhost', help='Host of the peer node')
     parser.add_argument('--port', type=int, default=5555, help='Port of the peer node')
-    parser.add_argument('--topic', type=str, required=True, help='Topic to subscribe and pull messages from')
+    parser.add_argument('--topic', type=str, required=True, help='Topic to subscribe to')
+
     args = parser.parse_args()
 
+    # Initialize the PeerNodeInterface
     interface = PeerNodeInterface(args.host, args.port)
     subscriber = Subscriber(interface, args.topic)
-    await subscriber.subscribe()
 
-    # Periodically pull messages
-    while True:
-        await subscriber.pull_messages()
-        await asyncio.sleep(5)
+    # Start the subscription listener
+    await subscriber.subscribe_and_listen()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("Subscriber stopped.")

@@ -1,0 +1,5 @@
+[2024-11-27 08:49:53] Peer node 110 shut down.
+[2024-11-27 08:51:08] Peer node 110 started on localhost:5561
+[2024-11-27 08:51:16] Connected by ('::1', 27080, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27080, 0, 0): {"command": "route", "target_node_id": "110", "original_request": {"command": "replicate_topic", "topic": "test_topic", "primary_node_id": "010", "neighbors": ["011", "000", "110"]}}
+[2024-11-27 08:51:16] Replicated topic 'test_topic' on node 110

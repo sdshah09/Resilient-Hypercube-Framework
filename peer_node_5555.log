@@ -1,0 +1,15 @@
+[2024-11-27 08:49:27] Peer node 000 shut down.
+[2024-11-27 08:50:47] Peer node 000 started on localhost:5555
+[2024-11-27 08:51:16] Connected by ('::1', 27076, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27076, 0, 0): {"command": "create_topic", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27079, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27079, 0, 0): {"command": "route", "target_node_id": "000", "original_request": {"command": "replicate_topic", "topic": "test_topic", "primary_node_id": "010", "neighbors": ["011", "000", "110"]}}
+[2024-11-27 08:51:16] Replicated topic 'test_topic' on node 000
+[2024-11-27 08:51:18] Connected by ('::1', 28583, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28583, 0, 0): {"command": "publish", "topic": "test_topic", "message": "Hello, Subscriber 1!"}
+[2024-11-27 08:51:19] Connected by ('::1', 29293, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29293, 0, 0): {"command": "publish", "topic": "test_topic", "message": "Hello, Subscriber 2!"}
+[2024-11-27 08:51:20] Connected by ('::1', 30021, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30021, 0, 0): {"command": "publish", "topic": "test_topic", "message": "Hello, Everyone!"}
+[2024-11-27 08:51:26] Connected by ('::1', 33819, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33819, 0, 0): {"command": "delete_topic", "topic": "test_topic"}

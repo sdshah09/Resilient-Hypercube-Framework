@@ -1,0 +1,2205 @@
+[2024-11-27 08:49:31] Peer node 001 shut down.
+[2024-11-27 08:50:50] Peer node 001 started on localhost:5556
+[2024-11-27 08:51:16] Connected by ('::1', 27081, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27081, 0, 0): {"command": "subscribe", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27087, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27087, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27093, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27093, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27099, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27099, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27105, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27105, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27111, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27111, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27117, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27117, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27123, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27123, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27129, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27129, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27135, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27135, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27141, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27141, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27147, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27147, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27153, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27153, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27159, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27159, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27165, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27165, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27171, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27171, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27177, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27177, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27183, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27183, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27189, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27189, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27195, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27195, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27201, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27201, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27207, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27207, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27213, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27213, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27219, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27219, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27225, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27225, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27231, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27231, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27237, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27237, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27243, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27243, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27249, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27249, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27255, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27255, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27261, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27261, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27267, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27267, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27273, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27273, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27279, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27279, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27285, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27285, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27291, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27291, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27297, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27297, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27303, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27303, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27309, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27309, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27315, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27315, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27321, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27321, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27327, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27327, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27333, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27333, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27339, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27339, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27345, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27345, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27351, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27351, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27357, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27357, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27363, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27363, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27369, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27369, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27375, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27375, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27381, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27381, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27387, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27387, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27393, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27393, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27426, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27426, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27432, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27432, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27438, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27438, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27444, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27444, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27450, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27450, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27456, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27456, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27462, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27462, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27468, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27468, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27474, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27474, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27480, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27480, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27486, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27486, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27492, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27492, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27498, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27498, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27504, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27504, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27510, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27510, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27516, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27516, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27522, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27522, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27528, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27528, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27534, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27534, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27541, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27541, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27547, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27547, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27553, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27553, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27559, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27559, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27565, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27565, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27570, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27570, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27576, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27576, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27582, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27582, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27588, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27588, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:16] Connected by ('::1', 27594, 0, 0)
+[2024-11-27 08:51:16] Received message from ('::1', 27594, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27600, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27600, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27606, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27606, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27613, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27613, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27619, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27619, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27625, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27625, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27631, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27631, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27637, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27637, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27643, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27643, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27649, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27649, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27655, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27655, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27661, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27661, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27667, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27667, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27673, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27673, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27679, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27679, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27685, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27685, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27691, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27691, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27697, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27697, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27703, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27703, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27709, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27709, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27715, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27715, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27721, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27721, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27727, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27727, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27733, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27733, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27739, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27739, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27745, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27745, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27751, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27751, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27757, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27757, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27763, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27763, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27769, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27769, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27776, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27776, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27782, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27782, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27788, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27788, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27794, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27794, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27800, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27800, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27806, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27806, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27812, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27812, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27818, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27818, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27824, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27824, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27830, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27830, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27836, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27836, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27842, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27842, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27848, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27848, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27854, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27854, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27860, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27860, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27866, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27866, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27872, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27872, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27878, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27878, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27884, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27884, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27891, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27891, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27897, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27897, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27903, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27903, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27909, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27909, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27915, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27915, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27921, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27921, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27927, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27927, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27933, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27933, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27939, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27939, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27945, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27945, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27951, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27951, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27957, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27957, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27963, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27963, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27969, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27969, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27975, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27975, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27981, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27981, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27987, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27987, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27993, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27993, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 27999, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 27999, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28005, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28005, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28011, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28011, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28017, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28017, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28023, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28023, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28029, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28029, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28035, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28035, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28041, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28041, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28047, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28047, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28053, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28053, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28059, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28059, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28065, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28065, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28071, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28071, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28077, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28077, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28083, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28083, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28089, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28089, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28095, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28095, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28101, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28101, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28107, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28107, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28113, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28113, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28119, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28119, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28125, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28125, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28131, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28131, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28137, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28137, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28143, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28143, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28149, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28149, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28155, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28155, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28161, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28161, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28167, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28167, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28173, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28173, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28179, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28179, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28189, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28189, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28195, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28195, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28201, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28201, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28207, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28207, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28213, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28213, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28219, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28219, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28225, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28225, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28231, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28231, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28237, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28237, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28243, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28243, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28249, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28249, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28255, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28255, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28261, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28261, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28267, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28267, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28273, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28273, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28279, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28279, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28285, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28285, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28291, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28291, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28297, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28297, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28303, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28303, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28309, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28309, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28315, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28315, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28321, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28321, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28327, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28327, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28333, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28333, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28339, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28339, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28345, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28345, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28351, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28351, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28357, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28357, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28363, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28363, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:17] Connected by ('::1', 28369, 0, 0)
+[2024-11-27 08:51:17] Received message from ('::1', 28369, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28375, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28375, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28381, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28381, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28387, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28387, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28393, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28393, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28399, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28399, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28405, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28405, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28411, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28411, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28417, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28417, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28423, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28423, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28429, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28429, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28437, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28437, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28443, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28443, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28449, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28449, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28455, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28455, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28461, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28461, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28467, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28467, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28474, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28474, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28481, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28481, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28487, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28487, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28493, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28493, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28499, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28499, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28505, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28505, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28511, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28511, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28517, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28517, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28523, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28523, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28529, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28529, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28535, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28535, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28541, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28541, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28547, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28547, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28553, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28553, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28559, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28559, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28565, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28565, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28571, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28571, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28577, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28577, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28584, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28584, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28592, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28592, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28597, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28597, 0, 0): {"command": "receive_message", "topic": "test_topic", "message": "Hello, Subscriber 1!"}
+[2024-11-27 08:51:18] Received message on topic 'test_topic': Hello, Subscriber 1!
+[2024-11-27 08:51:18] Connected by ('::1', 28598, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28598, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28604, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28604, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28610, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28610, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28616, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28616, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28622, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28622, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28628, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28628, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28634, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28634, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28640, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28640, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28646, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28646, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28652, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28652, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28658, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28658, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28664, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28664, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28670, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28670, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28676, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28676, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28682, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28682, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28688, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28688, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28694, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28694, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28700, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28700, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28706, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28706, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28712, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28712, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28718, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28718, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28724, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28724, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28730, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28730, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28736, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28736, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28742, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28742, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28748, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28748, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28754, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28754, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28760, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28760, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28766, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28766, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28772, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28772, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28778, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28778, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28784, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28784, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28790, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28790, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28796, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28796, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28802, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28802, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28808, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28808, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28814, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28814, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28820, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28820, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28826, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28826, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28832, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28832, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28838, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28838, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28844, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28844, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28850, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28850, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28856, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28856, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28862, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28862, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28868, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28868, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28874, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28874, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28880, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28880, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28886, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28886, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28892, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28892, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28898, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28898, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28904, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28904, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28910, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28910, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28916, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28916, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28922, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28922, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28928, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28928, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28934, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28934, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28940, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28940, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28946, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28946, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28952, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28952, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28958, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28958, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28964, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28964, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28970, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28970, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28976, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28976, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28982, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28982, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28988, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28988, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 28994, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 28994, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29000, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29000, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29006, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29006, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29012, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29012, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29018, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29018, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29024, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29024, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29030, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29030, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29036, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29036, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29042, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29042, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:18] Connected by ('::1', 29048, 0, 0)
+[2024-11-27 08:51:18] Received message from ('::1', 29048, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29054, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29054, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29060, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29060, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29066, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29066, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29072, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29072, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29078, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29078, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29084, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29084, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29090, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29090, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29096, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29096, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29102, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29102, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29108, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29108, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29114, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29114, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29120, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29120, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29126, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29126, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29132, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29132, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29138, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29138, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29144, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29144, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29150, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29150, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29156, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29156, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29162, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29162, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29168, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29168, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29174, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29174, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29180, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29180, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29186, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29186, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29192, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29192, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29198, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29198, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29204, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29204, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29210, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29210, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29216, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29216, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29222, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29222, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29228, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29228, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29234, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29234, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29240, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29240, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29246, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29246, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29252, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29252, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29258, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29258, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29264, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29264, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29270, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29270, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29276, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29276, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29282, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29282, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29288, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29288, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29296, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29296, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29302, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29302, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29305, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29305, 0, 0): {"command": "receive_message", "topic": "test_topic", "message": "Hello, Subscriber 2!"}
+[2024-11-27 08:51:19] Received message on topic 'test_topic': Hello, Subscriber 2!
+[2024-11-27 08:51:19] Connected by ('::1', 29308, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29308, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29314, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29314, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29320, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29320, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29326, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29326, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29332, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29332, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29338, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29338, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29344, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29344, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29350, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29350, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29356, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29356, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29362, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29362, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29368, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29368, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29374, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29374, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29380, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29380, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29386, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29386, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29392, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29392, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29398, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29398, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29404, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29404, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29410, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29410, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29416, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29416, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29422, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29422, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29428, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29428, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29434, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29434, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29440, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29440, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29446, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29446, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29453, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29453, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29458, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29458, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29464, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29464, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29470, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29470, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29476, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29476, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29482, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29482, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29488, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29488, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29494, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29494, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29500, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29500, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29506, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29506, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29512, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29512, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29518, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29518, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29524, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29524, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29530, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29530, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29536, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29536, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29542, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29542, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29548, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29548, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29554, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29554, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29560, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29560, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29566, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29566, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29572, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29572, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29578, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29578, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29584, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29584, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29590, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29590, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29596, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29596, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29602, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29602, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29608, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29608, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29614, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29614, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29620, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29620, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29626, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29626, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29632, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29632, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29638, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29638, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29644, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29644, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29650, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29650, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29656, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29656, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29662, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29662, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29668, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29668, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29674, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29674, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29680, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29680, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29686, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29686, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29692, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29692, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29698, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29698, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29704, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29704, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:19] Connected by ('::1', 29710, 0, 0)
+[2024-11-27 08:51:19] Received message from ('::1', 29710, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29716, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29716, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29722, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29722, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29728, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29728, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29734, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29734, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29740, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29740, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29746, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29746, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29752, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29752, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29758, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29758, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29764, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29764, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29770, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29770, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29776, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29776, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29782, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29782, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29788, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29788, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29794, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29794, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29800, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29800, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29806, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29806, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29812, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29812, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29818, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29818, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29824, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29824, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29830, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29830, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29836, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29836, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29842, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29842, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29848, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29848, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29854, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29854, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29860, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29860, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29866, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29866, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29872, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29872, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29878, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29878, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29884, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29884, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29890, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29890, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29896, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29896, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29902, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29902, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29908, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29908, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29914, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29914, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29920, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29920, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29926, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29926, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29932, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29932, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29938, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29938, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29944, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29944, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29950, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29950, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29956, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29956, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29962, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29962, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29968, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29968, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29974, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29974, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29980, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29980, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29986, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29986, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29992, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29992, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 29998, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 29998, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30004, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30004, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30010, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30010, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30016, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30016, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30024, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30024, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30030, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30030, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30033, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30033, 0, 0): {"command": "receive_message", "topic": "test_topic", "message": "Hello, Everyone!"}
+[2024-11-27 08:51:20] Received message on topic 'test_topic': Hello, Everyone!
+[2024-11-27 08:51:20] Connected by ('::1', 30036, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30036, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30042, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30042, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30048, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30048, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30054, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30054, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30060, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30060, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30066, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30066, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30072, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30072, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30078, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30078, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30084, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30084, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30090, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30090, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30096, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30096, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30102, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30102, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30108, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30108, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30114, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30114, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30120, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30120, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30126, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30126, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30132, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30132, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30138, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30138, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30144, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30144, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30150, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30150, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30156, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30156, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30162, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30162, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30168, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30168, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30174, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30174, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30180, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30180, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30186, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30186, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30192, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30192, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30198, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30198, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30204, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30204, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30210, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30210, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30216, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30216, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30222, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30222, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30228, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30228, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30234, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30234, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30240, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30240, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30246, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30246, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30252, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30252, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30258, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30258, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30264, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30264, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30270, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30270, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30276, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30276, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30282, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30282, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30288, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30288, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30294, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30294, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30300, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30300, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30306, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30306, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30312, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30312, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30318, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30318, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30324, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30324, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30330, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30330, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30336, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30336, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30342, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30342, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30348, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30348, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30354, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30354, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30360, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30360, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30366, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30366, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30372, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30372, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30378, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30378, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30384, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30384, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30390, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30390, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30396, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30396, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30402, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30402, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30408, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30408, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30414, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30414, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30420, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30420, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30426, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30426, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30432, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30432, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30438, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30438, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30444, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30444, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30450, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30450, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30456, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30456, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30462, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30462, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30468, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30468, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30474, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30474, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30481, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30481, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30487, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30487, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30494, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30494, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30500, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30500, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30506, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30506, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30512, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30512, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30518, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30518, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30524, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30524, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30530, 0, 0)
+[2024-11-27 08:51:20] Received message from ('::1', 30530, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:20] Connected by ('::1', 30536, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30536, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30542, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30542, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30549, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30549, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30555, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30555, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30561, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30561, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30567, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30567, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30573, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30573, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30579, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30579, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30585, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30585, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30591, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30591, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30597, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30597, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30603, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30603, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30609, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30609, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30615, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30615, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30621, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30621, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30627, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30627, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30633, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30633, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30639, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30639, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30645, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30645, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30651, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30651, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30657, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30657, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30663, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30663, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30669, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30669, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30675, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30675, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30681, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30681, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30687, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30687, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30693, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30693, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30699, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30699, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30705, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30705, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30711, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30711, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30717, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30717, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30723, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30723, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30729, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30729, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30735, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30735, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30741, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30741, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30747, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30747, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30753, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30753, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30759, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30759, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30765, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30765, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30771, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30771, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30777, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30777, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30783, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30783, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30789, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30789, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30795, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30795, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30801, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30801, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30807, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30807, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30813, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30813, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30819, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30819, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30825, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30825, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30831, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30831, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30837, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30837, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30843, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30843, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30849, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30849, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30855, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30855, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30861, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30861, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30867, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30867, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30873, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30873, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30879, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30879, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30885, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30885, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30891, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30891, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30897, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30897, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30903, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30903, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30909, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30909, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30915, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30915, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30921, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30921, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30927, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30927, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30933, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30933, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30939, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30939, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30945, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30945, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30951, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30951, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30957, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30957, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30963, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30963, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30969, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30969, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30975, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30975, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30981, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30981, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30987, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30987, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30993, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30993, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 30999, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 30999, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31005, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31005, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31011, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31011, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31017, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31017, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31023, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31023, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31029, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31029, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31035, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31035, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31041, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31041, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31047, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31047, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31053, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31053, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31059, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31059, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31065, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31065, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31071, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31071, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31077, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31077, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31083, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31083, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31089, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31089, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31095, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31095, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31101, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31101, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31107, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31107, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31113, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31113, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31119, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31119, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31125, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31125, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31131, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31131, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31137, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31137, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31143, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31143, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31149, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31149, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31155, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31155, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31161, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31161, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31167, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31167, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31173, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31173, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31179, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31179, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31185, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31185, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31191, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31191, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31197, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31197, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31203, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31203, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31209, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31209, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31215, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31215, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31221, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31221, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31227, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31227, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31233, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31233, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31239, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31239, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31245, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31245, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31251, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31251, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31257, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31257, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31263, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31263, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31269, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31269, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31275, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31275, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31281, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31281, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31287, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31287, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31293, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31293, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31299, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31299, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31305, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31305, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31311, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31311, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31317, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31317, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31323, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31323, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31329, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31329, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31335, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31335, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31341, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31341, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31347, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31347, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31353, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31353, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31359, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31359, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31365, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31365, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31371, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31371, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31377, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31377, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31383, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31383, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:21] Connected by ('::1', 31389, 0, 0)
+[2024-11-27 08:51:21] Received message from ('::1', 31389, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31395, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31395, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31401, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31401, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31407, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31407, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31413, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31413, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31419, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31419, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31425, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31425, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31431, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31431, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31437, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31437, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31443, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31443, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31449, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31449, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31455, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31455, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31461, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31461, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31467, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31467, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31473, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31473, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31479, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31479, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31485, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31485, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31491, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31491, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31497, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31497, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31503, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31503, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31509, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31509, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31515, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31515, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31521, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31521, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31527, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31527, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31533, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31533, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31539, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31539, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31545, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31545, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31551, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31551, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31557, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31557, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31563, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31563, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31570, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31570, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31576, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31576, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31582, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31582, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31588, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31588, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:22] Connected by ('::1', 31594, 0, 0)
+[2024-11-27 08:51:22] Received message from ('::1', 31594, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31699, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31699, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31705, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31705, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31711, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31711, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31717, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31717, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31723, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31723, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31729, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31729, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31735, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31735, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31741, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31741, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31747, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31747, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31753, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31753, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31759, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31759, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31765, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31765, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31771, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31771, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31777, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31777, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31783, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31783, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31789, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31789, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31795, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31795, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31801, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31801, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31807, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31807, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31813, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31813, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31820, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31820, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31826, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31826, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31832, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31832, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31838, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31838, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31844, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31844, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31850, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31850, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31856, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31856, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31862, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31862, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31868, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31868, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31874, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31874, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31880, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31880, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31886, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31886, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31892, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31892, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31898, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31898, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31904, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31904, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31910, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31910, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31916, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31916, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31922, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31922, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31928, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31928, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31934, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31934, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31940, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31940, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31946, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31946, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:23] Connected by ('::1', 31952, 0, 0)
+[2024-11-27 08:51:23] Received message from ('::1', 31952, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31958, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31958, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31964, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31964, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31970, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31970, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31976, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31976, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31982, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31982, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31988, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31988, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 31994, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 31994, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32000, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32000, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32006, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32006, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32012, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32012, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32018, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32018, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32024, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32024, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32030, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32030, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32036, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32036, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32042, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32042, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32048, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32048, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32054, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32054, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32060, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32060, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32066, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32066, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32072, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32072, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32078, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32078, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32084, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32084, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32090, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32090, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32096, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32096, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32102, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32102, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32108, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32108, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32114, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32114, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32120, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32120, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32126, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32126, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32132, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32132, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32138, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32138, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32144, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32144, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32150, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32150, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32156, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32156, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32172, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32172, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32178, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32178, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32184, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32184, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32190, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32190, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32196, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32196, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32202, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32202, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32208, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32208, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32214, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32214, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32220, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32220, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32226, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32226, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32232, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32232, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32238, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32238, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32244, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32244, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32250, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32250, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32256, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32256, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32262, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32262, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32268, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32268, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32274, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32274, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32280, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32280, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32286, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32286, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32292, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32292, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32298, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32298, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32304, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32304, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32310, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32310, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32316, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32316, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32322, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32322, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32328, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32328, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32334, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32334, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32340, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32340, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32346, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32346, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32352, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32352, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32358, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32358, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32364, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32364, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32370, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32370, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32376, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32376, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32382, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32382, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32388, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32388, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32394, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32394, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32400, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32400, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32406, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32406, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32412, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32412, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32418, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32418, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32424, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32424, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32430, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32430, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32436, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32436, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32442, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32442, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32448, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32448, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32454, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32454, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32460, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32460, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32466, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32466, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32472, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32472, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32478, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32478, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32484, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32484, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32490, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32490, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32496, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32496, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32502, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32502, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32508, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32508, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32514, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32514, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32520, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32520, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32526, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32526, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32532, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32532, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32538, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32538, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32544, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32544, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32550, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32550, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32556, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32556, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32562, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32562, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32568, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32568, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32574, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32574, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32580, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32580, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32586, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32586, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32592, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32592, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32598, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32598, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32604, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32604, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32610, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32610, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32616, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32616, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32622, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32622, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32628, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32628, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32634, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32634, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32639, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32639, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32645, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32645, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32651, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32651, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32657, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32657, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32663, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32663, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32669, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32669, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32675, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32675, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32681, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32681, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32687, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32687, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32693, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32693, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32699, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32699, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32705, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32705, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32712, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32712, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32718, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32718, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32724, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32724, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32730, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32730, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32736, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32736, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32742, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32742, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32748, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32748, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32754, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32754, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32760, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32760, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32766, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32766, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32772, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32772, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32778, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32778, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:24] Connected by ('::1', 32784, 0, 0)
+[2024-11-27 08:51:24] Received message from ('::1', 32784, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32790, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32790, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32796, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32796, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32802, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32802, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32808, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32808, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32814, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32814, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32820, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32820, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32826, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32826, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32832, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32832, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32838, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32838, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32844, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32844, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32850, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32850, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32856, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32856, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32862, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32862, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32868, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32868, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32874, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32874, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32880, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32880, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32886, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32886, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32892, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32892, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32898, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32898, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32904, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32904, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32910, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32910, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32916, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32916, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32922, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32922, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32928, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32928, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32934, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32934, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32940, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32940, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32946, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32946, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32952, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32952, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32958, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32958, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32964, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32964, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32970, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32970, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32976, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32976, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32982, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32982, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32988, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32988, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 32994, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 32994, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33000, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33000, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33006, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33006, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33012, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33012, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33018, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33018, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33024, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33024, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33030, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33030, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33036, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33036, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33042, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33042, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33048, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33048, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33054, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33054, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33061, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33061, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33067, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33067, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33073, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33073, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33079, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33079, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33085, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33085, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33091, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33091, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33097, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33097, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33103, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33103, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33109, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33109, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33115, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33115, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33121, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33121, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33127, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33127, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33133, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33133, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33139, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33139, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33145, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33145, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33151, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33151, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33157, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33157, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33163, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33163, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33169, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33169, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33175, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33175, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33181, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33181, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33187, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33187, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33193, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33193, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33199, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33199, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33205, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33205, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33211, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33211, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33217, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33217, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33223, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33223, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33229, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33229, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33235, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33235, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33241, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33241, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33247, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33247, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33253, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33253, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33259, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33259, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33265, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33265, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33271, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33271, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33277, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33277, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33283, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33283, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33289, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33289, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33295, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33295, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33301, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33301, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33307, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33307, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33313, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33313, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33319, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33319, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33325, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33325, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33331, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33331, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33337, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33337, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33343, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33343, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33349, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33349, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33355, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33355, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33361, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33361, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33367, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33367, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33373, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33373, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33379, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33379, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33385, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33385, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33391, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33391, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33397, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33397, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33403, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33403, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33409, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33409, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33415, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33415, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33421, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33421, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33427, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33427, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33433, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33433, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33439, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33439, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33445, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33445, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33451, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33451, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33457, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33457, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33463, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33463, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33469, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33469, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33475, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33475, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33481, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33481, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33487, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33487, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33493, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33493, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33499, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33499, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33505, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33505, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33511, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33511, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33517, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33517, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:25] Connected by ('::1', 33523, 0, 0)
+[2024-11-27 08:51:25] Received message from ('::1', 33523, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33529, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33529, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33535, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33535, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33541, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33541, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33547, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33547, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33553, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33553, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33559, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33559, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33565, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33565, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33571, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33571, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33577, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33577, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33583, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33583, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33589, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33589, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33595, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33595, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33601, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33601, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33607, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33607, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33613, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33613, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33619, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33619, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33625, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33625, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33631, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33631, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33637, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33637, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33643, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33643, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33649, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33649, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33655, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33655, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33661, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33661, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33667, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33667, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33673, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33673, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33679, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33679, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33685, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33685, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33692, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33692, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33698, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33698, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33704, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33704, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33710, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33710, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33716, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33716, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33722, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33722, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33728, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33728, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33734, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33734, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33740, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33740, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33746, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33746, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33752, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33752, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33758, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33758, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33764, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33764, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33770, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33770, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33776, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33776, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33782, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33782, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33788, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33788, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33794, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33794, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33800, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33800, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33806, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33806, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33812, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33812, 0, 0): {"command": "pull", "topic": "test_topic"}
+[2024-11-27 08:51:26] Connected by ('::1', 33818, 0, 0)
+[2024-11-27 08:51:26] Received message from ('::1', 33818, 0, 0): {"command": "pull", "topic": "test_topic"}
