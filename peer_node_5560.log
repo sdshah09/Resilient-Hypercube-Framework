@@ -1,2 +1,41 @@
-[2024-11-27 08:49:47] Peer node 101 shut down.
-[2024-11-27 08:51:04] Peer node 101 started on localhost:5560
+[2024-11-28 12:37:22] Peer node 101 started on localhost:5560
+[2024-11-28 12:37:22] Received message from ('::1', 65036, 0, 0): {"command": "route", "target_node_id": "110", "original_request": {"command": "add_offline_node", "failed_node": "011"}}
+[2024-11-28 12:37:22] Received message from ('::1', 65046, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "remove_offline_node", "online_node": "100"}}
+[2024-11-28 12:37:22] Removed node: 100 from offiline nodes set because it came online set()
+[2024-11-28 12:37:25] Received message from ('::1', 65078, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "remove_offline_node", "online_node": "110"}}
+[2024-11-28 12:37:25] Removed node: 110 from offiline nodes set because it came online set()
+[2024-11-28 12:37:26] Added Failed node to offline nodes set : 111, {'111'}
+[2024-11-28 12:37:26] Node 111 went offline going into handle failure node
+[2024-11-28 12:37:26] Handling failure of node: 111
+[2024-11-28 12:37:26] Error in heartbeat function: [WinError 1225] The remote computer refused the network connection
+[2024-11-28 12:37:26] Failed to route message to 111: [WinError 1225] The remote computer refused the network connection
+[2024-11-28 12:37:26] Received message from ('::1', 65093, 0, 0): {"command": "route", "target_node_id": "111", "original_request": {"command": "add_offline_node", "failed_node": "011"}}
+[2024-11-28 12:37:30] Removed node: 111 from offiline nodes set because it came online set()
+[2024-11-28 12:37:30] Node 111 that went offline came back online
+[2024-11-28 12:37:30] Received message from ('::1', 65128, 0, 0): {"command": "route", "target_node_id": "100", "original_request": {"command": "remove_offline_node", "online_node": "011"}}
+[2024-11-28 12:37:30] Received message from ('::1', 65130, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "remove_offline_node", "online_node": "011"}}
+[2024-11-28 12:37:30] Removed node: 011 from offiline nodes set because it came online set()
+[2024-11-28 12:37:30] Received message from ('::1', 65131, 0, 0): {"command": "route", "target_node_id": "110", "original_request": {"command": "remove_offline_node", "online_node": "011"}}
+[2024-11-28 12:37:30] Received message from ('::1', 65134, 0, 0): {"command": "route", "target_node_id": "111", "original_request": {"command": "remove_offline_node", "online_node": "011"}}
+[2024-11-28 12:37:31] Received message from ('::1', 65146, 0, 0): {"command": "route", "target_node_id": "100", "original_request": {"command": "remove_offline_node", "online_node": "111"}}
+[2024-11-28 12:37:31] Received message from ('::1', 65149, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "remove_offline_node", "online_node": "111"}}
+[2024-11-28 12:37:31] Removed node: 111 from offiline nodes set because it came online set()
+[2024-11-28 12:37:33] Received message from ('::1', 65186, 0, 0): {"command": "route", "target_node_id": "110", "original_request": {"command": "subscribe_to_peer", "topic": "sports", "subscriber_host": "localhost", "subscriber_port": 5556, "subscriber_node_id": "001"}}
+[2024-11-28 12:37:38] Received message from ('::1', 65313, 0, 0): {"command": "route", "target_node_id": "100", "original_request": {"command": "remove_offline_node", "online_node": "000"}}
+[2024-11-28 12:37:38] Received message from ('::1', 65315, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "remove_offline_node", "online_node": "000"}}
+[2024-11-28 12:37:38] Removed node: 000 from offiline nodes set because it came online set()
+[2024-11-28 12:37:38] Received message from ('::1', 65316, 0, 0): {"command": "route", "target_node_id": "110", "original_request": {"command": "remove_offline_node", "online_node": "000"}}
+[2024-11-28 12:37:38] Received message from ('::1', 65319, 0, 0): {"command": "route", "target_node_id": "111", "original_request": {"command": "remove_offline_node", "online_node": "000"}}
+[2024-11-28 12:43:42] Received message from ('::1', 3180, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "add_offline_node", "failed_node": "000"}}
+[2024-11-28 12:43:42] Added Failed node to offline nodes set : 000, {'000'}
+[2024-11-28 12:43:43] Failed to route message to 001: [WinError 1225] The remote computer refused the network connection
+[2024-11-28 12:43:45] Received message from ('::1', 3191, 0, 0): {"command": "route", "target_node_id": "100", "original_request": {"command": "add_offline_node", "failed_node": "001"}}
+[2024-11-28 12:43:45] Received message from ('::1', 3194, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "add_offline_node", "failed_node": "001"}}
+[2024-11-28 12:43:45] Added Failed node to offline nodes set : 001, {'001', '000'}
+[2024-11-28 12:43:46] Received message from ('::1', 3208, 0, 0): {"command": "route", "target_node_id": "101", "original_request": {"command": "add_offline_node", "failed_node": "000"}}
+[2024-11-28 12:43:46] Added Failed node to offline nodes set : 000, {'001', '000'}
+[2024-11-28 12:43:47] Failed to route message to 001: [WinError 1225] The remote computer refused the network connection
+[2024-11-28 12:43:47] Added Failed node to offline nodes set : 001, {'001', '000'}
+[2024-11-28 12:43:47] Node 001 went offline going into handle failure node
+[2024-11-28 12:43:47] Handling failure of node: 001
+[2024-11-28 12:45:33] Peer node 101 shut down.

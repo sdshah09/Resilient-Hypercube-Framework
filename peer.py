@@ -1,9 +1,10 @@
 import argparse
 import asyncio
 import json
-import hashlib
-from datetime import datetime
 from PeerNodeHelper import PeerNodeHelper
+import time
+
+NODES = ['000','001','010','011','100','101','110','111']
 
 class PeerNode:
     def __init__(self, host='localhost', port=5555, node_id='000', total_bits=3):
@@ -15,16 +16,151 @@ class PeerNode:
         self.total_nodes = 2 ** total_bits  # Total nodes in the hypercube
         self.topics = {}  # Store topics and messages
         self.subscribers = {}  # Store subscribers for each topic
-        self.neighbors = self.helper.get_neighbors()  # Neighboring nodes in the hypercube
+        self.neighbors = self.helper.get_neighbors()  # Neighboring nodes in the hypercube\
+        print(self.neighbors)
         self.routing_table = {}  # Cache routes to other nodes
         self.running = True
         self.log_file = f"peer_node_{self.port}.log"  # Log events
         self.replica_table = {} # {topic: [replicas]}
-        
+        self.offline_nodes = set() # Keep track of nodes that are offline
+        self.heartbeat_interval = 4
+        self.print_count = 3
+        self.replicate_subscribers = {} #{key = topic: value = list of nodes that subscribed to that topic}
+        self.primary_cache = {}  # Cache for topic -> {"primary": node_id, "timestamp": time}
+        self.cache_timeout = 10  # Cache timeout in seconds
+
+    async def get_primary_holder(self, topic):
+        """
+        Retrieve the primary holder of a topic by forwarding the request if not locally found.
+        """
+        # Check if the topic exists in the local replica_table
+        if topic in self.replica_table:
+            primary = self.replica_table[topic]["primary"]
+            self.helper.log_event(f"Primary for topic '{topic}' found locally: {primary}")
+            return primary
+
+        # If not found locally, forward the request to a neighbor
+        self.helper.log_event(f"Primary for topic '{topic}' not found locally. Forwarding request to neighbors.")
+        for neighbor_id in self.neighbors:
+            try:
+                request = json.dumps({
+                    "command": "find_primary",
+                    "topic": topic
+                })
+                response = await self.route_message(neighbor_id, request)
+                if response:
+                    response_data = json.loads(response)
+                    if response_data.get("status") == "success":
+                        return response_data.get("primary")
+            except Exception as e:
+                self.helper.log_event(f"Error contacting neighbor {neighbor_id}: {e}")
+        self.helper.log_event(f"Failed to locate primary for topic '{topic}'.")
+        return None
+    
+    async def add_offline_node(self,failed_node):
+        # for node in range(self.total_nodes):
+        for node in NODES:
+            await self.forward_request(node,
+                                       {"command":"add_offline_node",
+                                        "failed_node":failed_node}
+                                       )
+            
+    async def remove_offline_node(self,online_node):
+        for node in NODES:
+            await self.forward_request(node,{
+                "command":"remove_offline_node",
+                "online_node":online_node
+            })
+            
+    async def send_heartbeat(self):
+        while self.running:
+            for neighbor_id in self.neighbors:
+                host,port = self.helper.get_node_address(neighbor_id)
+                try:
+                    reader,writer = await asyncio.open_connection(host,port)
+                    request = json.dumps({
+                        "command":"heartbeat",
+                        "node":neighbor_id
+                    })
+                    writer.write(request.encode())
+                    await writer.drain()
+                    response = await reader.read(1024)
+                    response_data = json.loads(response.decode())
+                    if response_data.get("status") == "success":
+                        if neighbor_id in self.offline_nodes:
+                            await self.remove_offline_node(neighbor_id)
+                            self.helper.log_event(f"Node {neighbor_id} that went offline came back online") 
+                    else:
+                        if neighbor_id not in self.offline_nodes:
+                            await self.add_offline_node(neighbor_id)
+                            self.helper.log_event(f"Node {neighbor_id} went offline going into handle failure node")
+                            await self.handle_node_failure(neighbor_id)
+                except Exception as e:
+                            if neighbor_id not in self.offline_nodes:
+                                await self.add_offline_node(neighbor_id)
+                                self.helper.log_event(f"Node {neighbor_id} went offline going into handle failure node")
+                                await self.handle_node_failure(neighbor_id)
+                            if self.print_count<=3:
+                                self.helper.log_event(f"Error in heartbeat function: {e}")
+                            self.print_count+=1
+                finally:
+                    if 'writer' in locals():
+                        writer.close()
+                        await writer.wait_closed()
+
+            await asyncio.sleep(self.heartbeat_interval)
+    
+    async def handle_node_failure(self, failed_node):
+        """
+        Handles the failure of a node, including primary node re-election if necessary.
+        """
+        self.helper.log_event(f"Handling failure of node: {failed_node}")
+
+        # Iterate over topics to identify the ones affected by the failure
+        for topic, replica_data in self.replica_table.items():
+            is_primary = replica_data.get("primary") == failed_node
+            replicas = replica_data.get("replicas", [])
+
+            if is_primary:
+                self.helper.log_event(f"Primary node {failed_node} for topic '{topic}' has failed. Initiating election.")
+
+                if replicas:
+                    # Elect a new primary from the replicas
+                    new_primary = self.replica_table[topic]["replicas"].pop() # Select the first available replica
+                    self.replica_table[topic]["primary"] = new_primary  # Update the primary node
+                    self.helper.log_event(f"Node {new_primary} is the new primary for topic '{topic}'.")
+
+                    # # Notify the new primary and other replicas
+                    # for replica in replicas:
+                    #     try:
+                    #         response = await self.forward_request(
+                    #             replica,
+                    #             {
+                    #                 "command": "update_primary",
+                    #                 "topic": topic,
+                    #                 "new_primary": new_primary
+                    #             }
+                    #         )
+                    #         if response.get("status") == "success":
+                    #             self.helper.log_event(f"Replica {replica} acknowledged new primary for topic '{topic}'.")
+                    #         else:
+                    #             self.helper.log_event(f"Replica {replica} failed to acknowledge new primary for topic '{topic}'.")
+                    #     except Exception as e:
+                    #         self.helper.log_event(f"Error notifying replica {replica} of new primary: {e}")
+                else:
+                    # No replicas available, the topic becomes unavailable
+                    self.replica_table[topic]["primary"] = None
+                    self.helper.log_event(f"No replicas available for topic '{topic}'. Topic is now unavailable.")
+            elif failed_node in replicas:
+                # If the failed node is a replica, remove it from the list
+                self.replica_table[topic]["replicas"].remove(failed_node)
+                self.helper.log_event(f"Replica node {failed_node} removed for topic '{topic}'.")
+
+            
     async def start(self):
         server = await asyncio.start_server(self.handle_connection, self.host, self.port)
         self.helper.log_event(f"Peer node {self.node_id} started on {self.host}:{self.port}")
-
+        heartbeat = asyncio.create_task(self.send_heartbeat())
         async with server:
             try:
                 await server.serve_forever()
@@ -32,23 +168,36 @@ class PeerNode:
                 server.close()
                 await server.wait_closed()
                 self.helper.log_event(f"Peer node {self.node_id} shut down.")
+            finally:
+                if heartbeat:
+                    heartbeat.cancel()
+                    await heartbeat
                 
     async def handle_connection(self, reader, writer):
         addr = writer.get_extra_info('peername')
-        self.helper.log_event(f"Connected by {addr}")
 
         while True:
-            data = await reader.read(1024)
-            if not data:
-                break
-            message = data.decode()
-            if "heartbeat" not in message or "pull" not in message:
+            try:
+                data = await reader.read(1024)
+                if not data:
+                    break
+
+                message = data.decode()
                 self.helper.log_event(f"Received message from {addr}: {message}")
 
-            # Process the request and send a response
-            response = await self.process_request(message)
-            writer.write(response.encode())
-            await writer.drain()
+                # Process the request and get a response
+                response = await self.process_request(message)
+
+                # Ensure the response is serialized to JSON before writing
+                if isinstance(response, dict):
+                    response = json.dumps(response)
+
+                writer.write(response.encode())  # Send the response as bytes
+                await writer.drain()
+
+            except Exception as e:
+                self.helper.log_event(f"Error in handle_connection: {e}")
+                break
 
         writer.close()
         await writer.wait_closed()
@@ -56,7 +205,7 @@ class PeerNode:
     async def process_request(self, message):
         try:
             request = json.loads(message)
-            print("Request in process Request it is: ",request)
+            # print("Request in process Request it is: ",request)
             command = request.get('command')
             if command == "create_topic":
                 topic = request.get('topic')
@@ -93,12 +242,55 @@ class PeerNode:
                 primary_node_id = request.get('primary_node_id')
                 primary_node_neighbors = request.get('neighbors')
                 return await self.replicate_topic(topic,primary_node_id,primary_node_neighbors)
+            elif command == "heartbeat":
+                return json.dumps({"status":"success","message":f"Node {self.node_id} is online"})
+            elif command == "replicate_subscriber":
+                topic = request.get('topic')
+                subscriber_port = request.get('subscriber_port')
+                subscriber_node_id = request.get('subscriber_node_id')
+                subscriber_host = request.get('subscriber_host')
+                if topic not in self.replicate_subscribers:
+                    self.replicate_subscribers[topic] = set()
+                self.replicate_subscribers[topic].add((subscriber_host,subscriber_port,subscriber_node_id))
+                self.helper.log_event(f"Replicated subscriber to topic: {topic} and the table is {self.replicate_subscribers}")
+                return json.dumps({"status":"success","message":f"Replicated subscriber to topic: {topic} on node {self.node_id}"})
+            elif command == "find_primary":
+                topic = request.get('topic')
+                ttl = request.get('ttl', 7)  # Set a default TTL if not provided
+                if topic in self.replica_table:
+                    primary = self.replica_table[topic]["primary"]
+                    return json.dumps({"status": "success", "primary": primary})
+                if ttl <= 0:
+                    return json.dumps({"status": "error", "message": "TTL expired while searching for primary"})
+
+                # Forward to neighbors
+                for neighbor_id in self.neighbors:
+                    try:
+                        response = await self.route_message(neighbor_id, json.dumps({
+                            "command": "find_primary",
+                            "topic": topic,
+                            "ttl": ttl - 1  # Decrement TTL
+                        }))
+                        if response:
+                            return response
+                    except Exception as e:
+                        self.helper.log_event(f"Error forwarding 'find_primary' to neighbor {neighbor_id}: {e}")
+                return json.dumps({"status": "error", "message": f"Primary for topic '{topic}' not found."})
+            elif command == "add_offline_node":
+                failed_node = request.get('failed_node')
+                self.offline_nodes.add(failed_node)
+                self.helper.log_event(f"Added Failed node to offline nodes set : {failed_node}, {self.offline_nodes}")
+                return json.dumps({'status':'success','message':f'Removed {failed_node} because it came online'})
+            elif command == "remove_offline_node":
+                online_node = request.get('online_node')
+                if online_node in self.offline_nodes:
+                    self.offline_nodes.remove(online_node)
+                self.helper.log_event(f"Removed node: {online_node} from offiline nodes set because it came online {self.offline_nodes}")
+                return json.dumps({'status':'success','message':f'Removed {online_node} because it came online'})
             else:
                 return json.dumps({"status": "error", "message": "Unknown command"})
         except json.JSONDecodeError:
             return json.dumps({"status": "error", "message": "Invalid JSON format"})
-
-
 
     async def create_topic(self, topic):
         topic_node_id = self.helper.hash_topic(topic)
@@ -111,6 +303,7 @@ class PeerNode:
             self.helper.log_event(f"Created topic: {topic} on node: {topic_node_id}")
             # Create replicas
             for neighbor_id in self.neighbors:
+                self.helper.log_event(f"Neighbor id in create topic function is: {neighbor_id}")
                 await self.forward_request(neighbor_id, {
                     "command": "replicate_topic",
                     "topic": topic,
@@ -119,31 +312,40 @@ class PeerNode:
                 })
             return json.dumps({"status": "success", "message": f"Topic '{topic}' created with replicas"})
         else:
+            self.helper.log_event(f"Neighbor id in create topic else part function is: {topic_node_id}")
             return await self.forward_request(topic_node_id, {"command": "create_topic", "topic": topic})
 
     async def replicate_topic(self,topic,primary_node_id,primary_node_neighbors):
         if topic not in self.replica_table:
-            self.replica_table[topic] = {"primary": primary_node_id, "replicas": set(primary_node_neighbors)-{primary_node_id}}
+            self.replica_table[topic] = {"primary": primary_node_id, "replicas": sorted(set(primary_node_neighbors)-{primary_node_id})}
         self.helper.log_event(f"Replicated topic '{topic}' on node {self.node_id}")
         return json.dumps({"status": "success", "message": f"Topic '{topic}' replicated"})
 
     async def delete_topic(self, topic):
-        topic_node_id = self.helper.hash_topic(topic)
+        # topic_node_id = self.helper.hash_topic(topic)
+        # topic_node_id = self.replica_table[topic]["primary"]
+        topic_node_id = await self.get_primary_holder(topic)
         if topic_node_id == self.node_id:
             if topic not in self.topics:
                 return json.dumps({"status": "error", "message": "Topic does not exist"})
             del self.topics[topic]
             del self.subscribers[topic]
             del self.replica_table[topic]
+            del self.replicate_subscribers[topic]
             self.helper.log_event(f"Deleted topic '{topic}'")
             return json.dumps({"status": "success", "message": f"Topic '{topic}' deleted"})
         else:
             # Route the request to the responsible node
+            self.helper.log_event(f"Topic Node in delete topic function is: {topic_node_id}")
             return await self.forward_request(topic_node_id, {"command": "delete_topic", "topic": topic})
 
     async def publish(self, topic, message):
-        topic_node_id = self.helper.hash_topic(topic)
-        if topic_node_id == self.node_id:
+        # topic_node_id = self.helper.hash_topic(topic)
+        topic_node_id = await self.get_primary_holder(topic)
+        if topic_node_id in self.offline_nodes:
+            self.helper.log_event(f"Node {topic_node_id} is offline cannot publish the message. Try after sometime")
+            return json.dumps({"status":"error","message":f"Node {topic_node_id} is offline cannot publish the message. Try after sometime"})
+        if topic_node_id == self.node_id: 
             if topic in self.topics:
                 self.topics[topic].append(message)
                 self.helper.log_event(f"Published message on topic '{topic}': {message}")
@@ -153,39 +355,67 @@ class PeerNode:
                 return json.dumps({"status": "error", "message": "Topic does not exist"})
         else:
             # Route the request to the responsible node
+            self.helper.log_event(f"Topic Node id in publish function is: {topic_node_id}")
             return await self.forward_request(topic_node_id, {"command": "publish", "topic": topic, "message": message})
 
     async def subscribe(self, topic):
-        topic_node_id = self.helper.hash_topic(topic)
-        if topic_node_id == self.node_id:
-            if topic not in self.topics:
-                self.topics[topic] = []
-                self.subscribers[topic] = set()
-            self.subscribers[topic].add((self.host, self.port, self.node_id))
-            self.helper.log_event(f"Local subscription to topic '{topic}' by {self.node_id}")
-            return json.dumps({"status": "success", "message": f"Subscribed to topic '{topic}'"})
+        # topic_node_id = self.helper.hash_topic(topic)
+        topic_node_id = await self.get_primary_holder(topic)
+        if topic_node_id not in self.offline_nodes:
+            if topic_node_id == self.node_id:
+                if topic not in self.topics:
+                    self.topics[topic] = []
+                    self.subscribers[topic] = set()
+                    self.replicate_subscribers[topic] = set()
+                self.subscribers[topic].add((self.host, self.port, self.node_id))
+                self.replicate_subscribers[topic].add((self.host, self.port, self.node_id))
+                self.helper.log_event(f"Local subscription to topic '{topic}' by {self.node_id}")
+                return json.dumps({"status": "success", "message": f"Subscribed to topic '{topic}'"})
+            else:
+                self.helper.log_event(f"Topic node in susbcribe function is: {topic_node_id}")
+                response = await self.forward_request(topic_node_id, {
+                    "command": "subscribe_to_peer",
+                    "topic": topic,
+                    "subscriber_host": self.host,
+                    "subscriber_port": self.port,
+                    "subscriber_node_id": self.node_id
+                })
+                return response
         else:
-            response = await self.forward_request(topic_node_id, {
-                "command": "subscribe_to_peer",
-                "topic": topic,
-                "subscriber_host": self.host,
-                "subscriber_port": self.port,
-                "subscriber_node_id": self.node_id
-            })
-            return response
-
+            self.helper.log_event(f"Cannot subscribe because the node {topic_node_id} is offline")
+            return json.dumps({"status":"error","message":f"Cannot subscribe node {topic_node_id} is offline"})
 
     async def handle_subscription(self,topic, subscriber_host,subscriber_port, subscriber_node_id):
         if topic in self.topics:
             self.subscribers[topic].add((subscriber_host, subscriber_port, subscriber_node_id))
             self.helper.log_event(f"Peer {subscriber_node_id} subscribed to topic '{topic}'")
+            for neighbor_id in self.neighbors:
+                await self.forward_request(neighbor_id,
+                                           {"command":"replicate_subscriber",
+                                            "topic":topic,
+                                            "subscriber_host":subscriber_host,
+                                            "subscriber_port":subscriber_port,
+                                            "subscriber_node_id":subscriber_node_id}
+                                           )
             return json.dumps({"status": "success", "message": f"Subscribed to topic '{topic}'"})
         else:
             return json.dumps({"status": "error", "message": "Topic not found"})
 
+
     async def pull(self, topic):
-        topic_node_id = self.helper.hash_topic(topic)
+        """
+        Pull messages for a given topic. Use cached primary holder if available, otherwise resolve dynamically.
+        """
+            # Cache miss or expired entry
+        topic_node_id = await self.get_primary_holder(topic)
+        if not topic_node_id:
+            self.helper.log_event(f"Failed to locate primary for topic '{topic}'. Pull aborted.")
+            return json.dumps({"status": "error", "message": f"Cannot locate primary for topic '{topic}'"})
+
+        print(f"Pulling from Topic Node: {topic_node_id} for topic '{topic}'")
+
         if topic_node_id == self.node_id:
+            # Local pull
             if topic in self.topics:
                 messages = self.topics[topic]
                 if messages:
@@ -197,8 +427,10 @@ class PeerNode:
             else:
                 return json.dumps({"status": "error", "message": "Topic not found"})
         else:
-            # Route the pull request to the topic's node
-            return await self.forward_request(topic_node_id, {"command": "pull", "topic": topic})
+            # Forward the pull request to the primary node
+            response = await self.forward_request(topic_node_id, {"command": "pull", "topic": topic})
+            response_data = json.loads(response)
+            return response_data
 
     async def forward_message_to_subscribers(self, topic, message):
         subscribers = self.subscribers.get(topic, [])
@@ -232,10 +464,12 @@ class PeerNode:
         if target_node_id == self.node_id:
             # Process the original request
             original_request = json.loads(message).get('original_request')
-            print("Original Request in route message is: ",original_request)
+            # print("Original Request in route message is: ",original_request)
             return await self.process_request(json.dumps(original_request))
         else:
             next_hop_id = self.helper.find_next_hop(target_node_id)
+            if next_hop_id in self.offline_nodes:
+                return json.dumps({"status": "error", "message": f"Failed to route message to {target_node_id} because it is offline"})
             neighbor_host, neighbor_port = self.helper.get_node_address(next_hop_id)
             try:
                 reader, writer = await asyncio.open_connection(neighbor_host, neighbor_port)
