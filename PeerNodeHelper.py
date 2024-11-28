@@ -11,7 +11,7 @@ class PeerNodeHelper:
         self.port = port
         self.total_bits = total_bits
         self.total_nodes = 2 ** total_bits
-        self.log_file = f"peer_node_{self.port}.log"
+        self.log_file = f"logs/peer_node_{self.port}.log"
 
     def hash_topic(self, topic):
         """

@@ -17,8 +17,6 @@ class PeerNode:
         self.topics = {}  # Store topics and messages
         self.subscribers = {}  # Store subscribers for each topic
         self.neighbors = self.helper.get_neighbors()  # Neighboring nodes in the hypercube\
-        print(self.neighbors)
-        self.routing_table = {}  # Cache routes to other nodes
         self.running = True
         self.log_file = f"peer_node_{self.port}.log"  # Log events
         self.replica_table = {} # {topic: [replicas]}
@@ -26,9 +24,29 @@ class PeerNode:
         self.heartbeat_interval = 4
         self.print_count = 3
         self.replicate_subscribers = {} #{key = topic: value = list of nodes that subscribed to that topic}
-        self.primary_cache = {}  # Cache for topic -> {"primary": node_id, "timestamp": time}
-        self.cache_timeout = 10  # Cache timeout in seconds
+        
+    async def discover_topics_from_neighbors(self):
+        """
+        Query neighbors to discover topics belonging to this node.
+        """
+        topics_to_reclaim = {}
 
+        for neighbor_id in self.neighbors:
+            try:
+                response = await self.forward_request(neighbor_id, {
+                    "command": "discover_topics",
+                    "node_id": self.node_id
+                })
+                response_data = json.loads(response)
+                if response_data.get("status") == "success":
+                    for topic, data in response_data.get("topics", {}).items():
+                        if data["primary"] == self.node_id or self.node_id in data["replicas"]:
+                            topics_to_reclaim[topic] = data
+            except Exception as e:
+                self.helper.log_event(f"Error discovering topics from neighbor {neighbor_id}: {e}")
+
+        return topics_to_reclaim
+    
     async def get_primary_holder(self, topic):
         """
         Retrieve the primary holder of a topic by forwarding the request if not locally found.
@@ -71,6 +89,9 @@ class PeerNode:
                 "command":"remove_offline_node",
                 "online_node":online_node
             })
+        if online_node == self.node_id:
+            self.helper.log_event(f"Node {self.node_id} rejoined the network. Reclaiming topics.")
+            await self.handle_rejoin()
             
     async def send_heartbeat(self):
         while self.running:
@@ -120,7 +141,6 @@ class PeerNode:
         for topic, replica_data in self.replica_table.items():
             is_primary = replica_data.get("primary") == failed_node
             replicas = replica_data.get("replicas", [])
-
             if is_primary:
                 self.helper.log_event(f"Primary node {failed_node} for topic '{topic}' has failed. Initiating election.")
 
@@ -129,24 +149,6 @@ class PeerNode:
                     new_primary = self.replica_table[topic]["replicas"].pop() # Select the first available replica
                     self.replica_table[topic]["primary"] = new_primary  # Update the primary node
                     self.helper.log_event(f"Node {new_primary} is the new primary for topic '{topic}'.")
-
-                    # # Notify the new primary and other replicas
-                    # for replica in replicas:
-                    #     try:
-                    #         response = await self.forward_request(
-                    #             replica,
-                    #             {
-                    #                 "command": "update_primary",
-                    #                 "topic": topic,
-                    #                 "new_primary": new_primary
-                    #             }
-                    #         )
-                    #         if response.get("status") == "success":
-                    #             self.helper.log_event(f"Replica {replica} acknowledged new primary for topic '{topic}'.")
-                    #         else:
-                    #             self.helper.log_event(f"Replica {replica} failed to acknowledge new primary for topic '{topic}'.")
-                    #     except Exception as e:
-                    #         self.helper.log_event(f"Error notifying replica {replica} of new primary: {e}")
                 else:
                     # No replicas available, the topic becomes unavailable
                     self.replica_table[topic]["primary"] = None
@@ -156,11 +158,24 @@ class PeerNode:
                 self.replica_table[topic]["replicas"].remove(failed_node)
                 self.helper.log_event(f"Replica node {failed_node} removed for topic '{topic}'.")
 
-            
+    async def handle_rejoin(self):
+        """
+        Handle rejoining the network and reclaim topics that belong to this node.
+        """
+        self.helper.log_event("Rejoining the network and reclaiming topics.")
+
+        # Step 1: Query neighbors for topics owned or replicated
+        discovered_topics = await self.discover_topics_from_neighbors()
+
+        # Step 2: Reclaim ownership for topics that belong to this node
+        await self.reclaim_topics(discovered_topics)
+
     async def start(self):
         server = await asyncio.start_server(self.handle_connection, self.host, self.port)
         self.helper.log_event(f"Peer node {self.node_id} started on {self.host}:{self.port}")
         heartbeat = asyncio.create_task(self.send_heartbeat())
+        await self.handle_rejoin()
+
         async with server:
             try:
                 await server.serve_forever()
@@ -183,7 +198,8 @@ class PeerNode:
                     break
 
                 message = data.decode()
-                self.helper.log_event(f"Received message from {addr}: {message}")
+                if "heartbeat" not in message and "pull" not in message:
+                    self.helper.log_event(f"Received message from {addr}: {message}")
 
                 # Process the request and get a response
                 response = await self.process_request(message)
@@ -287,11 +303,69 @@ class PeerNode:
                     self.offline_nodes.remove(online_node)
                 self.helper.log_event(f"Removed node: {online_node} from offiline nodes set because it came online {self.offline_nodes}")
                 return json.dumps({'status':'success','message':f'Removed {online_node} because it came online'})
+            elif command == "discover_topics":
+                requesting_node_id = request.get("node_id")
+                topics_to_report = {}
+
+                for topic, data in self.replica_table.items():
+                    if data["primary"] == requesting_node_id or requesting_node_id in data["replicas"]:
+                        topics_to_report[topic] = data
+
+                return json.dumps({
+                    "status": "success",
+                    "topics": topics_to_report
+                })
+            elif command == "transfer_topic":
+                topic = request.get("topic")
+                new_primary = request.get("new_primary")
+                if topic in self.topics:
+                    # Transfer topic ownership but retain the replica
+                    topic_data = self.topics[topic]
+                    self.replica_table[topic]["primary"] = new_primary  # Update primary in replica table
+                    return json.dumps({
+                        "status": "success",
+                        "topic_data": topic_data
+                    })
+                else:
+                    return json.dumps({
+                        "status": "error",
+                        "message": f"Topic '{topic}' not found on node {self.node_id}"
+                    })
             else:
                 return json.dumps({"status": "error", "message": "Unknown command"})
         except json.JSONDecodeError:
             return json.dumps({"status": "error", "message": "Invalid JSON format"})
+        
+    async def reclaim_topics(self, topics_to_reclaim):
+        """
+        Reclaim ownership or replicas for topics that belong to this node.
+        """
+        for topic, data in topics_to_reclaim.items():
+            current_primary = data["primary"]
+            replicas = data["replicas"]
 
+            if current_primary == self.node_id:
+                # The node is the rightful primary, fetch full topic data
+                self.helper.log_event(f"Reclaiming primary ownership of topic '{topic}' from {current_primary}.")
+                response = await self.forward_request(current_primary, {
+                    "command": "transfer_topic",
+                    "topic": topic,
+                    "new_primary": self.node_id
+                })
+                response_data = json.loads(response)
+                if response_data.get("status") == "success":
+                    self.topics[topic] = response_data.get("topic_data", [])
+                    self.replica_table[topic] = {
+                        "primary": self.node_id,
+                        "replicas": replicas
+                    }
+            else:
+                # The node should retain its replica if it's listed
+                if self.node_id in replicas:
+                    self.helper.log_event(f"Retaining replica for topic '{topic}'.")
+                    if topic not in self.replica_table:
+                        self.replica_table[topic] = {"primary": current_primary, "replicas": replicas}
+                        
     async def create_topic(self, topic):
         topic_node_id = self.helper.hash_topic(topic)
         if topic_node_id == self.node_id:
@@ -317,7 +391,7 @@ class PeerNode:
 
     async def replicate_topic(self,topic,primary_node_id,primary_node_neighbors):
         if topic not in self.replica_table:
-            self.replica_table[topic] = {"primary": primary_node_id, "replicas": sorted(set(primary_node_neighbors)-{primary_node_id})}
+            self.replica_table[topic] = {"primary": primary_node_id, "right_node":self.helper.hash_topic(topic),"replicas": sorted(set(primary_node_neighbors)-{primary_node_id})}
         self.helper.log_event(f"Replicated topic '{topic}' on node {self.node_id}")
         return json.dumps({"status": "success", "message": f"Topic '{topic}' replicated"})
 

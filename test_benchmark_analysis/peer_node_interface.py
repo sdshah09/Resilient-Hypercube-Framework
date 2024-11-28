@@ -59,3 +59,11 @@ class PeerNodeInterface:
         """
         request = {"command": "find_primary", "topic": topic}
         return await self.client.send_request(request)
+    
+    async def get_topic_status(self, topic):
+        """
+        Query the node for the status of a specific topic.
+        """
+        request = {"command": "discover_topics", "topic": topic}
+        response = await self.client.send_request(request)
+        return response.get("topics", {}).get(topic)
